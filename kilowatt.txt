@@ -1,0 +1,6 @@
+const quilowatt = 280 * 0.05
+console.log(quilowatt)
+
+const bbc =(280 * 0.05 * 0.85)
+
+console.log(bbc)

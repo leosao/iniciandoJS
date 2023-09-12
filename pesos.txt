@@ -1,0 +1,26 @@
+const libra = 20
+const kg = 0.453592
+console.log("20lb equivalem a", (libra * kg), "kg");
+
+const onça = 10.5
+const kg2 = 0.0283495
+console.log("10.5oz equivalem a", (onça * kg2), "kg");
+
+const milha = 100
+const metros = 1609.34
+console.log("100mi equivalem a", (milha * metros), "m");
+
+const pés = 50
+const metros2 = 0.3048
+console.log("50ft equivalem a", (pés * metros2), "m");
+
+const galão = 103.56
+const litros = 3.78541
+console.log("103.56gal equivalem a", (galão * litros), "l");
+
+const xicaras = 450
+const litros2 = 0.24
+console.log("450xic equivalem a", (xicaras * litros2), "l");
+
+const pergunta = Number(prompt("Insira um valor para conversão de pés para metros"));
+console.log("O valor convertido é", (pergunta * 0.3048), "m")
