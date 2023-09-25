@@ -1,0 +1,20 @@
+let a = parseFloat(prompt("Insira um número"))
+let b = parseFloat(prompt("Insira outro número"))
+
+if (a > 0 && b > 0) {
+
+    console.log(a + b);
+
+
+} else if (a < 0 && b < 0) {
+
+}
+
+else if (a < 0 && b < 0) {
+
+
+     console.log("Os dois números devem ser positivos");
+} 
+else {
+    console.log("Operação inválida");
+}

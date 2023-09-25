@@ -1,0 +1,4 @@
+const frase = prompt("Insira uma frase")
+
+vogais = frase.match(/[aeiouAEIOU]/g)
+console.log(vogais);

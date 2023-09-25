@@ -1,0 +1,7 @@
+let array = [1, 2, 3, 4]
+
+if (array4.length >= 1 && array[0] > 0) {
+    console.log(array[0])
+} else {
+    console.log("O número precisa ser maior que o elemento 0");
+}

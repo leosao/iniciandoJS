@@ -1,0 +1,6 @@
+const frutas = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"]
+const palavra = "Abacaxi"
+const indice = frutas.indexOf(palavra)
+const tamanhoArray = frutas.length
+console.log("O índice da palavra" + " ", palavra, "é:", + indice)
+console.log("E o tamanho do array é:" + " ",tamanhoArray);

@@ -1,0 +1,6 @@
+const pergunta = prompt("Qual a sua oomida favorita?")
+const comidas = [ "lasanha", "strogonoff", "escondidinho", "açai", "amendoim"]
+let temp = comidas[0]
+comidas[2] = pergunta
+console.log(pergunta[2]);
+console.log("Essas são as minhas comidas favoritas:", comidas);

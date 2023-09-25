@@ -1,0 +1,5 @@
+let a = parseFloat(prompt("Insira um valor principal "));
+let b = parseFloat(prompt("Insira a taxa de juros "));
+let c = parseFloat(prompt("Insira o tempo em anos "));
+let d = a * b * c
+console.log("O valor dos juros simples é:", d);

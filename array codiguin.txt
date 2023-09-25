@@ -1,0 +1,4 @@
+const nome = prompt("Insira seu nome")
+const email = prompt("Insira seu email")
+
+alert(`O email ${email} foi cadastrado com sucesso. Seja bem-vindo(a) ${nome}`)

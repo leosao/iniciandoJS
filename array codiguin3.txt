@@ -1,0 +1,13 @@
+const listaDeTarefas = [];
+const tarefas = prompt("Insira uma tarefa")
+const tarefas2 = prompt("Insira outra tarefa")
+const tarefas3 = prompt("Insira mais uma tarefa")
+listaDeTarefas.push(tarefas)
+listaDeTarefas.push(tarefas2)
+listaDeTarefas.push(tarefas3)
+console.log(listaDeTarefas);
+
+const indiceRealizada = parseInt(prompt("Digite um índice de tarefa realizada (0, 1 ou 2):"))
+indiceRealizada >= 0 && indiceRealizada < listaDeTarefas
+listaDeTarefas.splice(indiceRealizada, 1);
+console.log(listaDeTarefas);
